@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Ranbeer Kamlapure, ECE Student, Explorer, Innovator" />
+  <title>Ranbeer Kamlapure | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* Reset default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f4f7fc;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .container {
+        display: flex;
+        max-width: 1200px;
+        margin: 40px auto;
+        justify-content: space-between;
+    }
+
+    /* Sidebar */
+    aside {
+        width: 280px;
+        background-color: #2d3b55;
+        color: white;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    aside header {
+        text-align: center;
+    }
+
+    aside h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .image-frame {
+        width: 170px;
+        height: 170px;
+        margin: 20px auto;
+        border-radius: 50%;
+        border: 5px solid #ff7f50;
+        overflow: hidden;
+    }
+
+    .image-frame img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+        display: block;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #ff7f50;
+    }
+
+    /* Main content */
+    main {
+        width: calc(100% - 320px);
+        padding: 30px;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    header h2 {
+        font-size: 2rem;
+        color: #2d3b55;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    ul li {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    ul li::before {
+        content: '•';
+        position: absolute;
+        left: 0;
+        color: #ff7f50;
+        font-size: 1.5rem;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 1rem;
+        color: white;
+        background-color: #2d3b55;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+
+    footer p {
+        margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <aside>
+      <header>
+        <h1>Ranbeer Kamlapure</h1>
+        <p>ECE Student | Explorer | Innovator</p>
+        <div class="image-frame">
+          <img src="img.jpg" alt="Ranbeer Kamlapure" />
+        </div>
+      </header>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="about">
+        <header><h2>About</h2></header>
+        <p>
+          I am an aspiring engineer, passionate about web development. Pursuing my BTech at WIT Solapur, I specialize in HTML, CSS, and JavaScript, creating interactive and visually appealing websites.
+        </p>
+      </section>
+
+      <section id="skills">
+        <header><h2>Languages & Skills</h2></header>
+        <ul>
+          <li><strong>Programming:</strong> Python, Java.</li>
+          <li><strong>Soft Skills:</strong> Leadership, Communication, Teamwork.</li>
+          <li><strong>Languages:</strong> English, Hindi, Marathi, Kannada.</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <header><h2>Projects</h2></header>
+        <ul>
+          <li><strong>Simon Says:</strong> Python-based game.</li>
+          <li><strong>Number Guessing Game:</strong> Using Python.</li>
+          <li><strong>Basic Calculator:</strong> Using Java.</li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <header><h2>Education</h2></header>
+        <p>
+          B.Tech Electronics & Computer Engineering (2023–2027) at WIT Solapur. Minor in IT, CGPA: 7.58.
+        </p>
+      </section>
+
+      <section id="certifications">
+        <header><h2>Certifications</h2></header>
+        <ul>
+          <li>DSA in Java certification.</li>
+          <li>Programming in Python certification.</li>
+          <li>Programming in C – Infosys Springboard.</li>
+        </ul>
+      </section>
+
+      <section id="additions">
+        <header><h2>Additional projects</h2></header>
+        <ul>
+          <li href="https://ranbeerkamlapure.github.io/ranbeer-portfolio/"><a href="#additions">Portfolio website</a></li>
+          <li>BIM calculator</li>
+          <li>Tip calculator</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <header><h2>Contact</h2></header>
+        <p>Email: <a href="mailto:ranbeerk036@gmail.com">ranbeerk036@gmail.com</a></p>
+        <p>Phone: <a href="tel:8623088592">8623088592</a></p>
+      </section>
+
+      <footer>
+        <p>© 2025 Ranbeer Kamlapure | Designed with ❤</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
